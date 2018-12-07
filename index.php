@@ -21,7 +21,7 @@ $openId = json_decode($data,1)['openid'];
 
 $db = new SQLite3('booking.sqlite3');
 $rs = [];
-$userInfo = $db->query('select * from user where openid='.$openId)->fetchArray(SQLITE3_ASSOC);
+$userInfo = $db->query("select * from user where openid='{$openId}'")->fetchArray(SQLITE3_ASSOC);
 if (empty($userInfo)){
     $rs = ['code'=>1];
 }else{
