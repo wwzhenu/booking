@@ -30,7 +30,7 @@ class Booking
     }
 
     protected function getOpenId($appId,$secret,$code){
-        $url  = "https://api.weixin.qq.com/sns/jscode2session?appid={$appId}&secret={$secret}&js_code={$code}&grant_type=authorization_code";
+        $url  = 'https://api.weixin.qq.com/sns/jscode2session?appid='.$appId.'&secret='.$secret.'&js_code='.$code.'&grant_type=authorization_code';
         $data = file_get_contents($url);
         return json_decode($data,1)['openid'];
     }
