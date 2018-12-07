@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8031f7d-6521-41c3-aa3f-0959fbbfe960" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/decrypt/demo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decrypt/errorCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decrypt/wxBizDataCrypt.php" afterDir="false" />
-    </list>
+    <list default="true" id="b8031f7d-6521-41c3-aa3f-0959fbbfe960" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,13 +91,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="14" />
-          <entry key="php" value="849" />
+          <entry key="php" value="858" />
           <entry key="sql" value="220" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="849" />
+          <entry key="PHP" value="858" />
           <entry key="Scratch" value="234" />
         </counts>
       </usages-collector>
@@ -112,8 +108,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="456">
+              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -223,11 +219,6 @@
               <item name="booking" type="b2602c69:ProjectViewProjectNode" />
               <item name="booking" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="booking" type="b2602c69:ProjectViewProjectNode" />
-              <item name="booking" type="462c0819:PsiDirectoryNode" />
-              <item name="decrypt" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -271,12 +262,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544089328446</updated>
-      <workItem from="1544089330121" duration="2950000" />
+      <workItem from="1544089330121" duration="3264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2950000" />
+    <option name="totallyTimeSpent" value="3264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1920" height="1080" extended-state="0" />
@@ -367,8 +358,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="456">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
         </state>
       </provider>
     </entry>
