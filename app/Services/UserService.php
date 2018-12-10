@@ -26,6 +26,8 @@ class UserService
 
     public function getUserInfo($params)
     {
+        $test = file_get_contents("php://input");
+        dd($test);
         $code = $params['code'];
         $this->getOpenId($code);
         $rs = User::query()->where('openid',$this->openId)->first();
