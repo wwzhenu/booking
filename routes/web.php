@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::group(['prefix' => 'user'],function (){
-    Route::get('userInfo','UserController@getUserInfo');
+    Route::post('userInfo','UserController@getUserInfo');
 });
