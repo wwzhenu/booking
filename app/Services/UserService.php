@@ -16,7 +16,7 @@ class UserService
     protected $secret;
     protected $openId;
 
-    const ERRORSTR = "{'code':1}";
+    const ERRORSTR = '{"code":1}';
 
     public function __construct()
     {
@@ -45,7 +45,7 @@ class UserService
         if ($data['errcode'] != 0){
             die(self::ERRORSTR);
         }else{
-            $this->openId =  json_decode($data, 1)['openid'];
+            $this->openId =  $data['openid'];
         }
     }
 
