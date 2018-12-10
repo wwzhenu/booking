@@ -23,7 +23,7 @@ class UserController extends Controller
 
     public function getUserInfo(Request $request)
     {
-        $this->service->getUserInfo($request->all());
+        $this->service->getUserInfo($request->input());
     }
 
 }
