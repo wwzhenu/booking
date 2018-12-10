@@ -42,7 +42,7 @@ class UserService
         $secret = $this->secret;
         $url = 'https://api.weixin.qq.com/sns/jscode2session?appid=' . $appId . '&secret=' . $secret . '&js_code=' . $code . '&grant_type=authorization_code';
         $data = json_decode(file_get_contents($url),TRUE);
-        if ($data['errcode'] != 0){
+        if (isset($data['errcode']) && $data['errcode'] != 0){
             die(self::ERRORSTR);
         }else{
             $this->openId =  $data['openid'];
